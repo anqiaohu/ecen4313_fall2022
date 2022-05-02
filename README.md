@@ -19,12 +19,12 @@ Design Specifications.
 | Output swing |    | 600   |    |  mV |
 
 ### Report Requirements
-Report your design parameters (W, L) for all transistor and resistors in a Word/Powerpoint/PDF/Markdown file.
-Share the path to your public repository on GitHub.
+1. Report transistor sizing (W,L) and ideal voltage/current source bias conditions.
+2. Share the path to your public repository on GitHub.
 
 ## Lab 2: Single stage OTA design
 
-Design specifications. Try to meet as many specs as possible at TT corners.
+Design specifications. Try to meet as many specs as possible at the TT corner.
 
 | Specifications | Min | Typ | Max | Unit |
 | ---------| ------| -------|-------|-----|
@@ -33,9 +33,9 @@ Design specifications. Try to meet as many specs as possible at TT corners.
 | IQ    |     |  50   |     |  uA |
 
 ### Report Requirements
-Report your design parameters (W, L) for all transistor and resistors in a Word/Powerpoint/PDF/Markdown file.
-Share the path to your public repository on GitHub.
+1. Report transistor sizing (W,L) and ideal sources if any.
+2. Share the path to your public repository on GitHub.
 
 ## Lab 3: Folded-Cascode 
 
-Design specifications TBD. Try to meet as many specs as possible at TT corners.
+Design specifications TBD. Try to meet as many specs as possible at the TT corner.
