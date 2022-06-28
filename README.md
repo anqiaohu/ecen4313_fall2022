@@ -45,16 +45,25 @@ Design specifications TBD. Try to meet as many specs as possible at the TT corne
 This lab is an intermediate step between Lab 1 and 2. We will use this lab
 to try out a unified design flow in Google Colab from schematic entry to post-layout simulations.
 
-Objective: We will design a basic two-transistor NMOS current mirror to achieve
-the best current matching within a given area budget. 
+**Objective**: We will design a basic two-transistor NMOS current mirror with minimal area to meet
+the specs. See the schematic in Fig. 1.
+
+
 
 Design Specifications: Meet as many specs as possible across process, voltage,
 and temperature (PVT) variations and global and local mismatch. 
+* Process corners: FF, SS, SF, FS, TT
+* Temperature: -40C, 25C, 125C
+* $V_{OUT}$: 0.3, 0.6, 0.8 V
+* Monte Carlo simulation $N>100$.
+* Min, max for $I_{OUT}$ based on $3\sigma$, i.e., $I_{OUT,avg} - 3\sigma >$ Min and $I_{OUT,avg} + 3\sigma <$ Max. 
 
 | Specifications | Min | Typ | Max | Unit |
 | --------- |  ----- | ------ | ------ | ----- |
-| $$I_{in}$$  |      |  1    |     | $$\mu A$$  |
-| $$I_{out}$$ |  9    |  10   |  11  | $$\mu A$$  |
+| $I_{REF}$  |      |  1    |     | $\mu A$  |
+| $I_{OUT}$ |  9    |  10   |  11  | $\mu A$  |
 
+### Report Requirement / Grading Rubric
 
+Report the size (W/L) and the total layout area ($\mu m^2$). The more compact design that meets all specs will receive a higher grade.
 
