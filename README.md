@@ -48,7 +48,8 @@ to try out a unified design flow in Google Colab from schematic entry to post-la
 **Objective**: We will design a basic two-transistor NMOS current mirror with minimal area to meet
 the specs. See the schematic in Fig. 1.
 
-
+![Figure 1: Current Mirror](Lab_1p1.png)
+*Fig. 1: Current Mirror*
 
 Design Specifications: Meet as many specs as possible across process, voltage,
 and temperature (PVT) variations and global and local mismatch. 
