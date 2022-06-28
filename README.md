@@ -39,3 +39,22 @@ Design specifications. Try to meet as many specs as possible at the TT corner.
 ## Lab 3: Folded-Cascode 
 
 Design specifications TBD. Try to meet as many specs as possible at the TT corner.
+
+## Lab 1.1: Current Mirror
+
+This lab is an intermediate step between Lab 1 and 2. We will use this lab
+to try out a unified design flow in Google Colab from schematic entry to post-layout simulations.
+
+Objective: We will design a basic two-transistor NMOS current mirror to achieve
+the best current matching within a given area budget. 
+
+Design Specifications: Meet as many specs as possible across process, voltage,
+and temperature (PVT) variations and global and local mismatch. 
+
+| Specifications | Min | Typ | Max | Unit |
+| --------- |  ----- | ------ | ------ | ----- |
+| $$I_{in}$$  |      |  1    |     | $$\mu A$$  |
+| $$I_{out}$$ |  9    |  10   |  11  | $$\mu A$$  |
+
+
+
